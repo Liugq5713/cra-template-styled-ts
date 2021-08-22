@@ -1,0 +1,25 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "@types/node": "^12.0.0",
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@types/jest": "^26.0.15",
+      "@types/styled-components": "^5.1.3",
+      "postcss-cli": "^7.1.2",
+      "typescript": "^4.1.2",
+      "web-vitals": "^1.0.1",
+      "styled-components": "^5.2.0",
+      "tailwindcss": "^1.8.10"
+    },
+    "script":{
+"build:css":""
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"]
+    }
+  }
+}
